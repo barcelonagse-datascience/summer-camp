@@ -15,7 +15,7 @@
 
 ## DRY
 
-**DRY** stands for **D**o not **R**epeat **Y**ourself. 
+**DRY** stands for **D**o not **R**epeat **Y**ourself.
 
 DRY is a basic strategy for removing repetition in code. Almost all code should be dry!
 
@@ -44,7 +44,7 @@ The most simple iterable is the **list**.
 <!-- _class: sidecode -->
 
 ```python
-for 
+for
 ```
 
 The basic loop in python is the **for loop** which consists of:
@@ -118,7 +118,7 @@ The basic loop in python is the **for loop** which consists of:
 2. A variable name for each item in the iterable (i.e. `number`)
 3. The keyword `in`.
 4. The iterable (`my_list`) and `:`.
-5. The code **block** to be repeated, indented 4 spaces. 
+5. The code **block** to be repeated, indented 4 spaces.
 
 ---
 
@@ -132,7 +132,7 @@ names = ['Foo', 'Bar', 'Baz']
 
 Data often comes in a list (if not, it would be called datum).
 
-There are 3 basic operations we perform on data in lists: 
+There are 3 basic operations we perform on data in lists:
 
 **map** transform each element
 **filter** remove some elements
@@ -149,7 +149,7 @@ names = ['Foo', 'Bar', 'Baz']
 
 def get_length(name):
     return len(name)
-    
+
 [get_length(n) for n in names]
 # [3, 3, 3]
 ```
@@ -203,8 +203,8 @@ Steps to write a **list comprehension**:
 1. Start with square brackets `[]`.
 2. Call the function with a variable that you will define later (`n`).
 3. `for`
-4. new variable(`n`) 
-5. `in` 
+4. new variable(`n`)
+5. `in`
 6. iterable(`names`)
 
 ---
@@ -218,7 +218,7 @@ names = ['Foo', 'Bar', 'Baz']
 
 def we_like(name):
     return name != 'Bar'
-    
+
 [n for n in names if we_like(n)]
 ```
 
@@ -244,13 +244,33 @@ def get_length(name):
 
 def we_like(name):
     return name != 'Bar'
-    
+
 [get_length(n) for n in names if we_like(n)]
 ```
 
 List comprehensions allow us to easily map and filter at the same time.
 
 What will this code output?
+
+---
+
+
+## Without explicit functions
+<!-- _class: sidecode -->
+
+```python
+names = ['Foo', 'Bar', 'Baz']
+
+[len(n) for n in names if n != 'Bar']
+
+nums = [2,5,10,25,35]
+
+[n**2 for n in nums]
+```
+
+We can perform operations directly in the list comprehension instead of defining functions separately.
+
+Note: this is often a stylistic choice and one should consider readability, modularity, and testability.
 
 ---
 
@@ -266,7 +286,7 @@ def get_sum(nums):
     for n in nums:
         total += n
     return total
-    
+
 get_sum(numbers)
 ```
 
@@ -288,7 +308,7 @@ def get_lowest(nums):
 
 ```
 
-To write a **reduce** function: 
+To write a **reduce** function:
 
 1. Initialize the **acumulator** (`lowest`)
 
@@ -305,7 +325,7 @@ def get_lowest(nums):
 
 ```
 
-To write a **reduce** function: 
+To write a **reduce** function:
 
 1. Initialize the **acumulator** (`lowest`)
 2. Define a for loop (`for n in nums:`)
@@ -325,7 +345,7 @@ def get_lowest(nums):
 
 ```
 
-To write a **reduce** function: 
+To write a **reduce** function:
 
 1. Initialize the **acumulator** (`lowest`)
 2. Define a for loop (`for n in nums:`)
@@ -347,7 +367,7 @@ def get_lowest(nums):
 
 ```
 
-To write a **reduce** function: 
+To write a **reduce** function:
 
 1. Initialize the **acumulator** (`lowest`)
 2. Define a for loop (`for n in nums:`)
@@ -374,11 +394,11 @@ def get_sum(nums):
     return total
 
 names = ['Foo', 'Bar', 'Baz']
-lengths = [get_length(n) for n in names 
+lengths = [get_length(n) for n in names
            if we_like(n)]
-total_length = get_sum(lengths)                      
+total_length = get_sum(lengths)
 ```
 
 Together, map, filter, and reduce consist of a powerful set of abstractions that allow us to transform data.
 
-Breaking down a data transformation task into these steps, then implementing them, is a large part of any data analysis project. 
+Breaking down a data transformation task into these steps, then implementing them, is a large part of any data analysis project.
