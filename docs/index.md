@@ -6,31 +6,25 @@
 2. exercises on github classroom
 
 
-## Course Material
-
-
-### 0. Optional pre-course
+## 0. Optional pre-course
 
 Udacity Introduction to Python Programming, lessons 1-2.
 
 
-### 1. Introduction to Python + Variables
+## 1. Introduction to Python + Variables
 
 _NOTE: this module does not have any corresponding assignment. If you feel you need exercises with the basics of variable assignment, please take a look at the optional material in module 0 above._
 
 
-##### Videos
+##### What is Python
 
-{% include youtube.html id="" %}
+[slides](./lectures/python.html){:target="_blank" rel="noopener"}
+{% include youtube.html id="0ua6H8jHiBU" %}
 
+##### Variables
 
-{% include youtube.html id="" %}
-
-
-##### Slides
-
-* [python](./lectures/python.html){:target="_blank" rel="noopener"}
-* [variables](./lectures/variables.html){:target="_blank" rel="noopener"}
+[slides](./lectures/variables.html){:target="_blank" rel="noopener"}
+{% include youtube.html id="vfdode-FOO8" %}
 
 
 ### 2. Functions and Catching Exceptions
@@ -40,8 +34,8 @@ _NOTE: this module does not have any corresponding assignment. If you feel you n
 
 ##### Slides
 
-* [functions](./lectures/functions.html)
-* [exceptions](./lectures/exceptions.html)
+* [functions](./lectures/functions.html){:target="_blank" rel="noopener"}
+* [exceptions](./lectures/exceptions.html){:target="_blank" rel="noopener"}
 
 
 functions/exercises.py
