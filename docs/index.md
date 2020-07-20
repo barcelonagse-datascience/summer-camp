@@ -29,8 +29,8 @@ _NOTE: this module does not have any corresponding assignment. If you feel you n
 
 ##### Slides
 
-* [python](./lectures/python.html)
-* [variables](./lectures/variables.html)
+* [python](./lectures/python.html){:target="_blank" rel="noopener"}
+* [variables](./lectures/variables.html){:target="_blank" rel="noopener"}
 
 
 ### 2. Functions and Catching Exceptions
