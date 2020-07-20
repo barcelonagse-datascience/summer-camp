@@ -62,10 +62,10 @@ Let's put a simple function in our new module `foo`:
 # hello.py
 
 from foo import greet
-greet()
+greet('nandan')
 
 import foo
-foo.greet()
+foo.greet('nandan')
 ```
 
 Now we can **import** this function into our `hello.py` file and use it:
@@ -123,13 +123,13 @@ However, this is usually not necessary for simple projects.
 # hello.py
 
 from foo.greetings import greet
-greet()
+greet('nandan')
 
 from foo import greetings
-greetings.greet()
+greetings.greet('nandan')
 
 import foo.greetings
-foo.greetings.greet()
+foo.greetings.greet('nandan')
 ```
 
 Now we can **import** a function from a module inside a package:

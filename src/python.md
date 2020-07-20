@@ -110,7 +110,7 @@ Create a new file inside that folder and call it `hello.py`.
 Write the following in the file (within your text editor):
 
 ```python
-message = 'Hello CodeOp!'
+message = 'Hello World!'
 print(message)
 ```
 

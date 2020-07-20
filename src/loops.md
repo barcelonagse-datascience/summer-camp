@@ -402,3 +402,11 @@ total_length = get_sum(lengths)
 Together, map, filter, and reduce consist of a powerful set of abstractions that allow us to transform data.
 
 Breaking down a data transformation task into these steps, then implementing them, is a large part of any data analysis project.
+
+---
+
+## Review
+
+1. DRY
+2. Lists and Loops
+3. Operations on lists: map, filter, reduce

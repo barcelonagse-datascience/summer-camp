@@ -254,7 +254,7 @@ Classes have a special method called `__init__`.
 
 This is called the **constructor**.
 
-The **constructor** is a special that exists to create the "initial state" of the object and set attributes on `self`.
+The **constructor** is a special method that exists to create the "initial state" of the object and set attributes on `self`.
 
 The **constructor** is called when the class is instantiated.
 

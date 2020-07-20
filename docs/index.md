@@ -43,13 +43,13 @@ This module gives a breif introduction to Python and shows how variable assignme
 #### What is Python
 
 
-{% include youtube.html id="0ua6H8jHiBU" %}
+{% include youtube.html id="hw3JgLE_pUc" %}
 [slides](./lectures/python.html){:target="_blank" rel="noopener"}
 
 #### Variables
 
 
-{% include youtube.html id="vfdode-FOO8" %}
+{% include youtube.html id="0nm8_ekQgps" %}
 [slides](./lectures/variables.html){:target="_blank" rel="noopener"}
 
 
@@ -64,17 +64,17 @@ This module introduces the two most fundamental building blocks for building pro
 
 #### Functions
 
-{% include youtube.html id="0ua6H8jHiBU" %}
+{% include youtube.html id="hI5nlD6ljoE" %}
 [slides](./lectures/functions.html){:target="_blank" rel="noopener"}
 
 #### Catching Exceptions
-{% include youtube.html id="vfdode-FOO8" %}
+{% include youtube.html id="WkgwPQYVauY" %}
 [slides](./lectures/exceptions.html){:target="_blank" rel="noopener"}
 
 
 #### Assignment
 
-[Functions Assignment](){:target="_blank" rel="noopener"}
+* [Functions Assignment](){:target="_blank" rel="noopener"}
 
 
 &nbsp;
@@ -85,13 +85,13 @@ This module introduces the two most fundamental building blocks for building pro
 This module introduces control flow (`if`, `elif`, `else`, etc.) and shows us how to use control flow to raise our own exceptions when things don't look as expected.
 
 #### Conditionals
-{% include youtube.html id="0ua6H8jHiBU" %}
+{% include youtube.html id="H41SyFd1pN8" %}
 [slides](./lectures/conditionals.html){:target="_blank" rel="noopener"}
 
 
 #### Assignment
 
-[Conditionals Assignment](){:target="_blank" rel="noopener"}
+* [Conditionals Assignment](){:target="_blank" rel="noopener"}
 
 &nbsp;
 &nbsp;
@@ -101,11 +101,11 @@ This module introduces control flow (`if`, `elif`, `else`, etc.) and shows us ho
 This module introduces the basic building blocks for iterating in Python: the list and the for loop, as well as three basic patterns for working with lists: map, filter, reduce.
 
 #### Lists and Loops
-{% include youtube.html id="vfdode-FOO8" %}
+{% include youtube.html id="nilLft5k5YI" %}
 [slides](./lectures/loops.html){:target="_blank" rel="noopener"}
 
 #### Assignment
-[Loops Assignment](){:target="_blank" rel="noopener"}
+* [Loops Assignment](){:target="_blank" rel="noopener"}
 
 &nbsp;
 &nbsp;
@@ -114,12 +114,16 @@ This module introduces the basic building blocks for iterating in Python: the li
 
 This module introduces two important data structures, the Tuple and the Dictionary, and introduces patterns for working with lists of tuples and lists of dictionaries.
 
-#### Tuples and Dictionaries
-{% include youtube.html id="vfdode-FOO8" %}
+#### List Operations and Tuples
+{% include youtube.html id="BjxJ0Z-0g5g" %}
+[slides](./lectures/tuples.html){:target="_blank" rel="noopener"}
+
+#### Dictionaries
+{% include youtube.html id="B3hF1TA4p90" %}
 [slides](./lectures/dictionaries.html){:target="_blank" rel="noopener"}
 
 #### Assignment
-[Dictionaries Assignment](){:target="_blank" rel="noopener"}
+* [Dictionaries Assignment](){:target="_blank" rel="noopener"}
 
 &nbsp;
 &nbsp;
@@ -129,12 +133,12 @@ This module introduces two important data structures, the Tuple and the Dictiona
 This modules introduces the basic building block of Object Oriented Programming (OOP): the class.
 
 #### Classes
-{% include youtube.html id="vfdode-FOO8" %}
+{% include youtube.html id="HYdIjGJCDf4" %}
 [slides](./lectures/classes.html){:target="_blank" rel="noopener"}
 classes.html
 
 #### Assignment
-[Classes Assignment](){:target="_blank" rel="noopener"}
+* [Classes Assignment](){:target="_blank" rel="noopener"}
 
 &nbsp;
 &nbsp;
@@ -144,15 +148,15 @@ classes.html
 This module includes information about working with modules and loading JSON data: an important data serialization format that fits well with the type of data we've been working with so far.
 
 #### Modules
-{% include youtube.html id="vfdode-FOO8" %}
+{% include youtube.html id="6VR6pQ-Da6E" %}
 [slides](./lectures/modules.html){:target="_blank" rel="noopener"}
 
 #### Working with JSON Data
-{% include youtube.html id="vfdode-FOO8" %}
+{% include youtube.html id="Iu0Yeg2douY" %}
 [slides](./lectures/json.html){:target="_blank" rel="noopener"}
 
 #### Assignment
-[Modules/JSON Assignment](){:target="_blank" rel="noopener"}
+* [Modules/JSON Assignment](){:target="_blank" rel="noopener"}
 
 
 &nbsp;
@@ -164,4 +168,4 @@ This assignment brings everything we've been working on together to give you mor
 
 #### Assignment
 
-[Lists and Classes Test](){:target="_blank" rel="noopener"}
+* [Lists and Classes Test](){:target="_blank" rel="noopener"}

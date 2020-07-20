@@ -51,7 +51,7 @@ my_list[1:3] # ['bar', 'baz]
 
 Instead of selecting a single element from a list, you can select a **contiguous range** of elements.
 
-This is done with the followign form `[start:end]`.
+This is done with the following form `[start:end]`.
 
 If `start` is omitted, the range starts at the first element. If `end` is omitted, the range goes until the last element.
 
