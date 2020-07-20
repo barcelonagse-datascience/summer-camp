@@ -16,35 +16,42 @@ Udacity Introduction to Python Programming, lessons 1-2.
 _NOTE: this module does not have any corresponding assignment. If you feel you need exercises with the basics of variable assignment, please take a look at the optional material in module 0 above._
 
 
-##### What is Python
+#### What is Python
 
 [slides](./lectures/python.html){:target="_blank" rel="noopener"}
 {% include youtube.html id="0ua6H8jHiBU" %}
 
-##### Variables
+#### Variables
 
 [slides](./lectures/variables.html){:target="_blank" rel="noopener"}
 {% include youtube.html id="vfdode-FOO8" %}
 
 
-### 2. Functions and Catching Exceptions
+
+## 2. Functions and Catching Exceptions
 
 
-##### Videos
+#### Functions
 
-##### Slides
+[slides](./lectures/functions.html){:target="_blank" rel="noopener"}
+{% include youtube.html id="0ua6H8jHiBU" %}
 
-* [functions](./lectures/functions.html){:target="_blank" rel="noopener"}
-* [exceptions](./lectures/exceptions.html){:target="_blank" rel="noopener"}
+#### Catching Exceptions
 
-
-functions/exercises.py
-
-
-##### Assignment
+[slides](./lectures/exceptions.html){:target="_blank" rel="noopener"}
+{% include youtube.html id="vfdode-FOO8" %}
 
 
-### Conditionals and Raising Exceptions
+
+### Assignment
+
+* [Functions Assignment](htts://github.com)
+
+
+
+## 3. Conditionals and Raising Exceptions
+
+
 
 conditionals.html
 
