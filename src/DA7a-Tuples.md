@@ -20,6 +20,9 @@ my_list = ['foo', 'bar', 'baz']
 my_list[0] # 'foo'
 my_list[1] # 'bar'
 my_list[2] # 'baz'
+
+my_list[-1] # 'baz'
+my_list[-2] # 'bar'
 ```
 
 Sometimes we want to get retrieve a single element from a list.
@@ -27,6 +30,32 @@ Sometimes we want to get retrieve a single element from a list.
 We can do this if we know the **index** of the element.
 
 Python indices start from `0`!
+
+We can also use negative indexing to index from the end of the list.
+
+---
+
+
+
+## List indexing
+<!-- _class: sidecode -->
+
+```python
+my_list = ['foo', 'bar', 'baz', 'qux']
+
+my_list[1:] # ['bar', 'baz', 'qux]
+my_list[:1] # ['foo']
+my_list[1:2] # ['bar']
+my_list[1:3] # ['bar', 'baz]
+```
+
+Instead of selecting a single element from a list, you can select a **contiguous range** of elements.
+
+This is done with the followign form `[start:end]`.
+
+If `start` is omitted, the range starts at the first element. If `end` is omitted, the range goes until the last element.
+
+`start` is inclusive. `end` is exclusive.
 
 ---
 
@@ -46,6 +75,22 @@ my_list
 We can also mutate a list inplace.
 
 For example, we can change an element of a list by setting a new value via its index.
+
+---
+
+
+## IndexError
+<!-- _class: sidecode -->
+
+```python
+my_list = ['foo', 'bar', 'baz']
+
+print(my_list[4]) # IndexError
+
+my_list[4] = 'qux' # IndexError
+```
+
+Lists raise an `IndexError` exception when you try to get or set a value at an index that does not exist.
 
 ---
 
