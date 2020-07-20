@@ -27,10 +27,60 @@ _NOTE: this module does not have any corresponding assignment. If you feel you n
 {% include youtube.html id="" %}
 
 
+##### Slides
+
+* [python](./lectures/python.html)
+* [variables](./lectures/variables.html)
+
+
 ### 2. Functions and Catching Exceptions
 
 
 ##### Videos
 
+##### Slides
 
-##### Exercises
+* [functions](./lectures/functions.html)
+* [exceptions](./lectures/exceptions.html)
+
+
+functions/exercises.py
+
+
+##### Assignment
+
+
+### Conditionals and Raising Exceptions
+
+conditionals.html
+
+conditionals/exercises.py
+
+### Lists and Loops
+
+loops.html
+
+loops/exercises.py
+
+### Tuples and Dictionaries
+
+dictionaries.html
+
+dictionaries/exercises.py
+
+### Classes
+
+classes.html
+
+classes/exercises.py
+
+### Modules and JSON
+
+json.html
+modules.html
+
+json/exercises.py
+
+### Test
+
+lists-and-classes/exercises.py
