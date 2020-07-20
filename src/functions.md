@@ -5,10 +5,10 @@
 
 ## What we will cover...
 
-1. Why do we want functions? 
-2. Anotomy of a function declaration. 
-3. Invoking a function. 
-4. Scope. 
+1. Why do we want functions?
+2. Anotomy of a function declaration.
+3. Invoking a function.
+4. Scope.
 
 ---
 
@@ -16,26 +16,26 @@
 
 The ISS was (is) a very complex project. It's a nice metaphor for any engineering project!
 
-![bg right](images/iss.jpg)
+![bg right](../images/iss.jpg)
 
 ---
 
 ## The International Space Station
 
-The ISS consists of many small modules, many of which were built in different countries. They were first connected in outer space!
+The ISS consists of many small modules, many of which were built in different countries. They were first connected in outer space!!
 
-![bg right](images/iss-exploded.jpg)
+![bg right](../images/iss-exploded.jpg)
 
 ---
 
 
 ## Testable modules
 
-The ISS worked because each module had a well defined **interface** through which it connected to other modules. 
+The ISS worked because each module had a well defined **interface** through which it connected to other modules.
 
 Programming can be thought of in the same way: we build a set of **units** that communicate with each other through well-defined interfaces.
 
-In Python, we can use **functions** as those units. 
+In Python, we can use **functions** as those units.
 
 ---
 
@@ -43,7 +43,7 @@ In Python, we can use **functions** as those units.
 <!-- _class: sidecode -->
 
 ```python
-def 
+def
 ```
 
 We create a new function in python with the `def` keyword
@@ -55,10 +55,10 @@ We create a new function in python with the `def` keyword
 <!-- _class: sidecode -->
 
 ```python
-def add 
+def add
 ```
 
-We create a new function in python with the `def` keyword. 
+We create a new function in python with the `def` keyword.
 
 Next comes the **name** of the function (in this case, `add`).
 
@@ -71,7 +71,7 @@ Next comes the **name** of the function (in this case, `add`).
 def add()
 ```
 
-We create a new function in python with the `def` keyword. 
+We create a new function in python with the `def` keyword.
 
 Next comes the **name** of the function (in this case, `add`).
 
@@ -87,7 +87,7 @@ The name must be followed by a set of parenthesis `()`
 def add():
 ```
 
-We create a new function in python with the `def` keyword. 
+We create a new function in python with the `def` keyword.
 
 Next comes the **name** of the function (in this case, `add`).
 
@@ -104,7 +104,7 @@ def add():
     # body
 ```
 
-We create a new function in python with the `def` keyword. 
+We create a new function in python with the `def` keyword.
 
 Next comes the **name** of the function (in this case, `add`).
 
@@ -123,7 +123,7 @@ def add():
 
 The *body* can contain any valid Python code!
 
-**Note:** the body _must_ be indented exactly 4 spaces (your editor will place 4 spaces when you use the `tab` command). 
+**Note:** the body _must_ be indented exactly 4 spaces (your editor will place 4 spaces when you use the `tab` command).
 
 ---
 
@@ -154,7 +154,7 @@ This function does nothing!
 
 In general, we want functions to *do some work*.
 
-The **interface** of a function consists of: 
+The **interface** of a function consists of:
 
 1. Its "inputs"
 2. Its "outputs"
@@ -170,7 +170,7 @@ def add(a, b):
     x = 5
 ```
 
-Function **parameters** (`a, b`) define the "inputs" of a function. 
+Function **parameters** (`a, b`) define the "inputs" of a function.
 
 ---
 
@@ -184,7 +184,7 @@ def add(a, b):
     return x
 ```
 
-Function **parameters** (`a, b`) define the "inputs" of a function. 
+Function **parameters** (`a, b`) define the "inputs" of a function.
 
 The keyword `return` is used to return values from the function ("outputs").
 
@@ -203,7 +203,7 @@ def add(a, b):
 
 Functions are tools. They are created once and, often, used many times!
 
-The act of using a function is referred to as **calling** or **invoking**. 
+The act of using a function is referred to as **calling** or **invoking**.
 
 ---
 
@@ -215,7 +215,7 @@ The act of using a function is referred to as **calling** or **invoking**.
 def add(a, b):
     x = a + b
     return x
-    
+
 add(5, 10)
 ```
 
@@ -224,7 +224,7 @@ In python, functions are called by writing the name of the function, followed by
 
 Function **arguments** go inside the parentheses, separated by `,`.
 
-The function `add` is declared with two **parameters** (`a` and `b`), therefore, we call it with two **arguments** (`5` and `10`). 
+The function `add` is declared with two **parameters** (`a` and `b`), therefore, we call it with two **arguments** (`5` and `10`).
 
 ---
 
@@ -237,7 +237,7 @@ The function `add` is declared with two **parameters** (`a` and `b`), therefore,
 def add(a, b):
     x = a + b
     return x
-    
+
 my_sum = add(5, 10)
 ```
 
@@ -253,11 +253,11 @@ We can store the return value in a variable, just the same as we declare, or ove
 ```python
 def five():
     return 5
-    
+
 five() == 5
 ```
 
-Functions can be declared without parameters. 
+Functions can be declared without parameters.
 
 In that case they are called without arguments: `five()`.
 
@@ -271,15 +271,15 @@ In that case they are called without arguments: `five()`.
 def print_double(num):
     x = num*2
     print(x)
-    
+
 print_double(10)
 ```
 
-Sometimes, we don't want functions to return anything. 
+Sometimes, we don't want functions to return anything.
 
-Often this is the case when we want functions to perform **side effects**. 
+Often this is the case when we want functions to perform **side effects**.
 
-A side effect is something the function does above and beyond that which it returns. Printing to the terminal is an example of a side effect. 
+A side effect is something the function does above and beyond that which it returns. Printing to the terminal is an example of a side effect.
 
 ---
 
@@ -292,14 +292,14 @@ x = 5
 
 def futile(num):
     x = num
-    
+
 futile(10)
 print(x)
 ```
 
-Functions can't change variables that are declared outside of the function. 
+Functions can't change variables that are declared outside of the function.
 
-This is called **scope**. 
+This is called **scope**.
 
 ---
 
@@ -331,7 +331,7 @@ print(globaler())
 
 ## Review
 
-1. Why do we want functions? 
-2. Anotomy of a function declaration. 
-3. Invoking a function. 
-4. Scope. 
+1. Why do we want functions?
+2. Anotomy of a function declaration.
+3. Invoking a function.
+4. Scope.

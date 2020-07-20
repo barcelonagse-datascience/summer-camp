@@ -103,11 +103,11 @@ Python2 has been dying a long, slow death for many years now. We will be using P
 
 ## A python file
 
-Open VSCode and open a new folder for this class.
+Open your text editor (ie VSCode) and open a new folder for this class.
 
 Create a new file inside that folder and call it `hello.py`.
 
-Write the following in the file (within VSCode):
+Write the following in the file (within your text editor):
 
 ```python
 message = 'Hello CodeOp!'
@@ -127,12 +127,13 @@ In your terminal:
 
 ---
 
-## VSCode and Python
+## Installing Packages
 
-Some basic setup for Python programming with VSCode:
+To complete the assignments, it can be helpful to have some basic python packages (libraries) installed on your computer:
 
-1. Install the "Python" extension (by Microsoft).
-2. Install some python libraries on your computer (pylint, pytest, pytest-xdist)
+1. pylint
+2. pytest
+3. pytest-xdist
 
 You can install python libraries ("globally") with the following command:
 
