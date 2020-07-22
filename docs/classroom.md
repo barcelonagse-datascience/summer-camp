@@ -1,4 +1,4 @@
-{% include breadcrumbs.html %}
+{% include breadcrumbs.html current="Classroom Exercises" %}
 
 # Learning Python
 
